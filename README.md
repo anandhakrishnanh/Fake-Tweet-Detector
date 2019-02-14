@@ -43,7 +43,7 @@ Now you're ready to clone and use the get_tweets script.
 $ git clone https://github.com/gitlaura/get_tweets.git
 $ cd get_tweets
 
-Enter the appropriate keys from your Twitter app in lines 11-15 of get_tweets.py using any text editor.
+Enter the appropriate keys from your Twitter app in get_tweets.py using any text editor.
 
 Finally you can run the script by entering one Twitter username at the command line:
 

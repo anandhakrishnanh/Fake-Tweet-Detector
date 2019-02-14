@@ -38,6 +38,9 @@ This script uses Tweepy. If you don't have Tweepy installed you need to run this
 
 $ sudo pip install tweepy
 
+-----------------
+Some examples of fake tweets are given 
+
 Now you're ready to clone and use the get_tweets script.
 
 $ git clone https://github.com/gitlaura/get_tweets.git

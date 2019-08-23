@@ -59,7 +59,7 @@ We store the tweets from the user in all.csv
 
 5. Next we need to comapare if the text in tweet.txt coinsides in the all.csv. For that we run the program compare.py
 
-    ``python comapre.py
+``python comapre.py``
 
 -------------------------------------------------------------
 
@@ -69,7 +69,7 @@ All the codes are run using a shell script called fake.sh
 3. I have used my Twitter credentials but you may use your own if required.
 4. Give proper permission for the script using 
 
-    ``chmod +x fake.sh``
+``chmod +x fake.sh``
 
 then run 
 

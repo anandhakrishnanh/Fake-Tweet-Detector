@@ -11,12 +11,12 @@ $ convert -resize 200% /home/aking/Downloads/1.png /home/aking/Downloads/2.png
 
 install tesseract
 
-$ pip install pillow 
-$ pip install pytesseract
+    pip install pillow 
+    pip install pytesseract
 
 Next we run the tesseract on 2.png using 
 
-$tesseract (file_path) stdout 
+    tesseract (file_path) stdout 
 and store the entire details to tweets.txt
 
 ----------------------------------
@@ -24,7 +24,7 @@ and store the entire details to tweets.txt
 
 We run the code getidandtweet.py 
 
-$ python getidandtweet.py 
+    python getidandtweet.py 
 
 This will store the userid into id.txt and the tweet into tweet.txt
 
@@ -36,21 +36,21 @@ You need to get your Twitter API Credentials by creating a new app at developer.
 
 This script uses Tweepy. If you don't have Tweepy installed you need to run this command on the terminal first:
 
-$ sudo pip install tweepy
+    sudo pip install tweepy
 
 -----------------
 
 
 Now you're ready to clone and use the get_tweets script.
 
-$ git clone https://github.com/gitlaura/get_tweets.git
-$ cd get_tweets
+    git clone https://github.com/gitlaura/get_tweets.git
+    cd get_tweets
 
 Enter the appropriate keys from your Twitter app in get_tweets.py using any text editor.
 
 Finally you can run the script by entering one Twitter username at the command line:
 
-$ python get_tweets.py [twitter_username]
+    python get_tweets.py [twitter_username]
 
 We store the tweets from the user in all.csv
 
@@ -59,7 +59,7 @@ We store the tweets from the user in all.csv
 
 5. Next we need to comapare if the text in tweet.txt coinsides in the all.csv. For that we run the program compare.py
 
-$python comapre.py
+    ``python comapre.py
 
 -------------------------------------------------------------
 
@@ -69,11 +69,11 @@ All the codes are run using a shell script called fake.sh
 3. I have used my Twitter credentials but you may use your own if required.
 4. Give proper permission for the script using 
 
-$ chmod +x fake.sh 
+    ``chmod +x fake.sh 
 
 then run 
 
-$./fake.sh
+``./fake.sh
 
 --------------------
 

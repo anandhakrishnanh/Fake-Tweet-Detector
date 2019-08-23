@@ -69,11 +69,11 @@ All the codes are run using a shell script called fake.sh
 3. I have used my Twitter credentials but you may use your own if required.
 4. Give proper permission for the script using 
 
-    ``chmod +x fake.sh 
+    ``chmod +x fake.sh``
 
 then run 
 
-``./fake.sh
+``./fake.sh``
 
 --------------------
 
